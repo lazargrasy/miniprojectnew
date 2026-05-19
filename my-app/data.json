@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "student",
+      "password": "student123",
+      "role": "student",
+      "name": "Alex Johnson",
+      "email": "alex@student.edu",
+      "dept": "Computer Science",
+      "joined": "2024-01-15"
+    },
+    {
+      "id": "u2",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Dr. Priya Kumar",
+      "email": "priya@faculty.edu",
+      "dept": "Faculty",
+      "joined": "2023-08-01"
+    },
+    {
+      "id": "u3",
+      "username": "student2",
+      "password": "pass123",
+      "role": "student",
+      "name": "Meera Nair",
+      "email": "meera@student.edu",
+      "dept": "Mathematics",
+      "joined": "2024-01-15"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a1",
+      "title": "Data Structures – Linked Lists",
+      "subject": "CS301",
+      "dueDate": "2026-05-15",
+      "description": "Implement a doubly linked list with insert, delete, and reverse operations in C/C++.",
+      "textContent": "Assignment 1: Data Structures\n\nQuestion 1 (10 marks): Implement a singly linked list with:\n- insert at head\n- insert at tail\n- delete by value\n\nQuestion 2 (10 marks): Implement a doubly linked list and demonstrate traversal in both directions.\n\nQuestion 3 (5 marks): Write a function to reverse a linked list.\n\nSubmit your source code with a brief report.",
+      "rubric": [
+        {
+          "q": "Question 1 – Singly Linked List",
+          "max": 10
+        },
+        {
+          "q": "Question 2 – Doubly Linked List",
+          "max": 10
+        },
+        {
+          "q": "Question 3 – Reverse Function",
+          "max": 5
+        }
+      ],
+      "createdBy": "u2",
+      "createdAt": "2026-05-01",
+      "files": []
+    },
+    {
+      "id": "a2",
+      "title": "Calculus – Integration Techniques",
+      "subject": "MAT201",
+      "dueDate": "2026-05-10",
+      "description": "Solve integration problems using substitution, integration by parts, and partial fractions.",
+      "textContent": "Assignment 2: Integration\n\nSolve all problems showing full working:\n\nQ1 (5 marks): ∫ x·sin(x) dx\nQ2 (5 marks): ∫ (3x²+2)/(x³+2x) dx using partial fractions\nQ3 (10 marks): ∫₀¹ x·eˣ dx (definite integral)\nQ4 (5 marks): ∫ cos²(x) dx",
+      "rubric": [
+        {
+          "q": "Q1 – Integration by Parts",
+          "max": 5
+        },
+        {
+          "q": "Q2 – Partial Fractions",
+          "max": 5
+        },
+        {
+          "q": "Q3 – Definite Integral",
+          "max": 10
+        },
+        {
+          "q": "Q4 – Trigonometric Identity",
+          "max": 5
+        }
+      ],
+      "createdBy": "u2",
+      "createdAt": "2026-04-28",
+      "files": []
+    },
+    {
+      "id": "a1778937527812",
+      "title": "Python",
+      "subject": "sjd",
+      "dueDate": "2026-05-30",
+      "description": "sjdjf",
+      "textContent": "sdijfosjopdkpks",
+      "rubric": [
+        {
+          "q": "Question",
+          "max": 50
+        },
+        {
+          "q": "Question",
+          "max": 50
+        }
+      ],
+      "files": [],
+      "createdBy": "u2",
+      "createdAt": "2026-05-16"
+    },
+    {
+      "id": "a1778937584188",
+      "title": "dkjfkjd",
+      "subject": "djijkf",
+      "dueDate": "2026-05-30",
+      "description": "dhhjf",
+      "textContent": "dkjfkd",
+      "rubric": [
+        {
+          "q": "Question",
+          "max": 50
+        }
+      ],
+      "files": [],
+      "createdBy": "u2",
+      "createdAt": "2026-05-16"
+    },
+    {
+      "id": "a1778939519805",
+      "title": "spm",
+      "subject": "shss",
+      "dueDate": "2026-05-30",
+      "description": "sjdkd",
+      "textContent": "fjdkffkr",
+      "rubric": [
+        {
+          "q": "Question",
+          "max": 50
+        }
+      ],
+      "files": [],
+      "createdBy": "u2",
+      "createdAt": "2026-05-16"
+    },
+    {
+      "id": "a1778940135700",
+      "title": "dllekddke",
+      "subject": "djeko3",
+      "dueDate": "5555-12-31",
+      "description": "ekrkr",
+      "textContent": "rkfkrnr",
+      "rubric": [
+        {
+          "q": "Question",
+          "max": 80
+        }
+      ],
+      "files": [],
+      "createdBy": "u2",
+      "createdAt": "2026-05-16"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "s1778938129585",
+      "assignmentId": "a1778937527812",
+      "userId": "u1",
+      "files": [],
+      "notes": "Submitted In-Person (Physical Submission)",
+      "submittedAt": "2026-05-16T13:28:49.585Z"
+    }
+  ],
+  "attendance": {},
+  "queries": [
+    {
+      "id": "q1",
+      "userId": "u1",
+      "subject": "Assignment a1 – Q3 clarification",
+      "text": "Can the reverse function be iterative or must it be recursive?",
+      "answer": "Either approach is acceptable. Iterative is preferred for efficiency.",
+      "answeredBy": "Dr. Priya Kumar",
+      "status": "answered",
+      "date": "2026-05-02"
+    }
+  ],
+  "results": [
+    {
+      "id": "r1778938174261",
+      "assignmentId": "a1778937527812",
+      "userId": "u1",
+      "submissionId": "s1778938129585",
+      "scores": [
+        0,
+        0
+      ],
+      "totalObtained": 0,
+      "totalMax": 100,
+      "feedback": "",
+      "gradedBy": "u2",
+      "gradedAt": "2026-05-16T13:29:34.261Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1778940135703ke2zb",
+      "userId": "u3",
+      "message": "New Assignment Posted: dllekddke",
+      "type": "info",
+      "read": false,
+      "date": "2026-05-16T14:02:15.703Z"
+    },
+    {
+      "id": "n17789401357038hi8g",
+      "userId": "u1",
+      "message": "New Assignment Posted: dllekddke",
+      "type": "info",
+      "read": true,
+      "date": "2026-05-16T14:02:15.703Z"
+    },
+    {
+      "id": "n1778939519813tnmm8",
+      "userId": "u3",
+      "message": "New Assignment Posted: spm",
+      "type": "info",
+      "read": false,
+      "date": "2026-05-16T13:51:59.813Z"
+    },
+    {
+      "id": "n1778939519812kz4xp",
+      "userId": "u1",
+      "message": "New Assignment Posted: spm",
+      "type": "info",
+      "read": true,
+      "date": "2026-05-16T13:51:59.813Z"
+    },
+    {
+      "id": "n17789381742631m0j9",
+      "userId": "u1",
+      "message": "Your assignment 'Python' has been graded! Score: 0/100",
+      "type": "success",
+      "read": true,
+      "date": "2026-05-16T13:29:34.263Z"
+    },
+    {
+      "id": "n17789375841952n790",
+      "userId": "u3",
+      "message": "New Assignment Posted: dkjfkjd",
+      "type": "info",
+      "read": false,
+      "date": "2026-05-16T13:19:44.195Z"
+    },
+    {
+      "id": "n1778937584195cm6iq",
+      "userId": "u1",
+      "message": "New Assignment Posted: dkjfkjd",
+      "type": "info",
+      "read": true,
+      "date": "2026-05-16T13:19:44.195Z"
+    },
+    {
+      "id": "n17789375278621e5gj",
+      "userId": "u3",
+      "message": "New Assignment Posted: Python",
+      "type": "info",
+      "read": false,
+      "date": "2026-05-16T13:18:47.862Z"
+    },
+    {
+      "id": "n17789375278612ghx7",
+      "userId": "u1",
+      "message": "New Assignment Posted: Python",
+      "type": "info",
+      "read": true,
+      "date": "2026-05-16T13:18:47.862Z"
+    }
+  ]
+}
